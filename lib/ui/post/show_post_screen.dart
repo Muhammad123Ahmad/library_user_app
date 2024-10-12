@@ -133,6 +133,7 @@ class _ShowPostScreenState extends State<ShowPostScreen> {
                   onTap: (){
                     setState(() {
                       selectedCategory = "Horror";
+                      
                     });
                   },
                   child: Container(
